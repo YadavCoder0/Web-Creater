@@ -1,0 +1,295 @@
+*{
+  background-size: cover;
+  margin: 0;padding: 0;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.nav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 34px;
+
+
+}
+.nav a{
+  text-decoration: none;
+  gap: 45px;
+}
+ 
+
+.container1{
+  border: 2px solid black;
+  background-image: url(first.jpeg);
+  color: white;
+  padding: 164px;
+  background-size: cover;
+  
+  
+ 
+}
+.container1 h1{
+  font-size: 54px;
+  text-shadow: 2px 2px  red;
+  font-weight: bolder;
+  width: 780px;
+  position: relative;
+  left: 145px;
+  
+
+}
+
+.container1 p{
+  font-size: 35px;
+  width: 780px;
+  position: relative;
+  left: 145px;
+}
+.container1 button{
+  position: relative;
+  left: 145px;
+  padding: 3px;
+  font-size: 30px;
+  border-radius: 50px ;
+  
+
+}
+.container1 button:hover{
+  border-radius: 64px 36px;
+  border: 2px solid rgb(9, 2, 48);
+}
+.container1 button:active{
+  border: 5px solid rgb(9, 2, 48);
+  background-color: rgb(72, 63, 89) ;
+}
+.container2{
+  position: relative;
+  top: 45px;
+  height: 750px;
+
+}
+.text{
+  position: relative;
+  top: 134px;
+  left: 14px;
+  width: 600px;
+  gap: 25px;
+}
+.container2 p1{
+  font-size: 20px;
+  font-weight: bold;
+  padding: 15px;
+}
+.container2 h1{
+  font-size: 48px;
+  padding: 15px;
+}
+.container2 p{
+  font-size: 27px;
+  padding: 15px;
+}
+.container2 img{
+  position: relative;
+  bottom: 364px;
+  left: 800px;
+  
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 15px;
+  
+ 
+}
+.container2 button{
+  font-size: 30px;
+  border: 1px solid black;
+  position: relative;
+  left: 14px;
+  padding: 3px;
+}
+.container2 button:hover{
+  border-radius: none;
+  background-color: rgb(184, 183, 183);
+  border-radius: 64px 36px;
+  border: 2px solid rgb(9, 2, 48);
+}
+.container2 button:active{
+  border: 3px solid rgb(9, 2, 48);
+  border-radius: 50px;
+  
+}
+.container3{
+  padding: 43px;
+  position: relative;
+  top: 5px;
+  
+
+}
+.container3 .text2{
+  gap: 5px;
+}
+.container3 .text2 h1{
+  font-size: 48px;
+  width: 768px;
+  left: 14px;
+ 
+}
+.container3 .card{
+  display: flex;
+  justify-content: center;
+  gap: 34px;
+  padding: 23px;
+}
+.container3 .card .card1, .card2, .card3{
+  padding: 14px;
+  font-size: 24px;
+  row-gap: 32px;
+}
+
+.container3 .card .card1, .card2, .card3 p{
+  font-size: 20px;
+}
+.container3 button{
+  font-size: 30px;
+  border: 1px solid black;
+  padding: 3px;
+ 
+}
+.container3 button:hover{
+  border-radius: none;
+  background-color: rgb(184, 183, 183);
+  border-radius: 64px 36px;
+  border: 2px solid rgb(9, 2, 48);
+}
+.container3 button:active{
+  border: 3px solid rgb(9, 2, 48);
+  border-radius: 50px;
+  
+}
+.containernew{
+  display: flex;
+  gap: 300px;
+  position: relative;
+  left: 70px;
+}
+.containernew .tt img{
+  width: 100px;
+  
+}
+.containernew .new1 ol li{
+  border: 2px solid black;
+  gap: 123px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+.containernew .new2 ol li{
+  border: 2px solid black;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+.containernew .new3 ol li{
+  border: 2px solid black;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.container4{
+  border: 2px solid red;
+  background-image: url(third.jpeg);
+ 
+  background-size: cover;
+  padding: 154px;
+  color: rgb(255, 255, 255);
+  
+}
+.container4 h1{
+  padding: 23px;
+  font-size: 48px;
+
+}
+.container4 p{
+  padding: 23px;
+  font-size: 24px;
+}
+.container4 button{
+  font-size: 30px;
+  border: 1px solid black;
+  position: relative;
+  left: 23px;
+  padding: 3px;
+ 
+}
+.container4 button:hover{
+  border-radius: none;
+  background-color: rgb(184, 183, 183);
+  border-radius: 64px 36px;
+  border: 2px solid rgb(9, 2, 48);
+}
+.container4 button:active{
+  border: 3px solid rgb(9, 2, 48);
+  border-radius: 50px;
+  
+}
+.container5{
+  padding: 40px;
+}
+.container5 .c1{
+  position: relative;
+  left: 700px;
+  font-size: 48px;
+}
+.container5 .c1 p1{
+  position: relative;
+  left: -200px;
+  font-size: 24px;
+}
+.container5 .text{
+  position: relative;
+  top: -1px;
+}
+
+
+.ftr{
+  display: flex;
+  justify-content: center;
+  gap: 134px;
+  padding: 54px;
+  /* text-decoration: none; */
+}
+.logo{
+  position: relative;
+  left: 34px;
+  
+}
+.logo button:hover{
+  border-radius: 64px 36px;
+  border: 2px solid rgb(9, 2, 48);
+}
+.logo button:active{
+  border: 5px solid rgb(9, 2, 48);
+  background-color: rgb(72, 63, 89) ;
+}
+.ftr ul li a{
+  text-decoration: none;
+}
+
+.text3{
+  padding: 23px;
+  display: flex;
+  gap: 34px;
+}
+
+
+
+
+/* .row .footer-col{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+.row .footer-col a{
+  text-decoration: none;
+} */
